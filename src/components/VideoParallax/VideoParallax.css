@@ -1,0 +1,28 @@
+.video-parallax-section {
+  position: relative;
+  /* Scroll distance determines how long the video scrubbing lasts */
+  height: 500vh;
+  width: 100%;
+  background-color: #000; /* No website backgrounds or shades, pure black */
+}
+
+.video-sticky-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.parallax-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video fills the screen smoothly */
+  pointer-events: none;
+  filter: brightness(1.2); /* Increased brightness by 20% */
+}
